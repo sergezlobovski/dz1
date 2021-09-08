@@ -11,6 +11,9 @@ const NewGoal = props => {
         }
 
         props.addGoal(newGoal)
+
+        event.target.elements.goal.value = ''
+
     }
 
     return (
